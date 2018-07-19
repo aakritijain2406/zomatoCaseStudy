@@ -1,0 +1,32 @@
+{
+  "name": "zomato",
+  "version": "1.0.0",
+  "description": "Case study project for Zomato",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "zomatoCaseStudy"
+  },
+  "keywords": [
+    "zomato"
+  ],
+  "author": "Aakriti Jain",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.10",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.1",
+    "react-select": "^1.2.1",
+    "webpack": "^4.16.1",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.0.8"
+  }
+}
